@@ -1,0 +1,15 @@
+Attribution 4.0 International (CC BY 4.0)
+
+This licence applies to the data in this deposit: the model outputs under
+drp_eval/runs/, the human rating tallies under drp_eval/data/, the analysis
+outputs (drp_eval/*.json) and this README.
+
+You are free to share and adapt the material for any purpose, provided you
+give appropriate credit, provide a link to the licence, and indicate if changes
+were made. The full legal code is available at:
+
+    https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution: Zhang, P., Zhu, M.-H. & Fang, C. Data and code for:
+Benchmarking nine large language models against human consensus for
+drug-related problem coding. Zenodo (2026).

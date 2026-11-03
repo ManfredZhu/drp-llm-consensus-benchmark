@@ -1,0 +1,241 @@
+{
+ "codebook_n_codes": 53,
+ "models": [
+  "kimi-k2.8-preview",
+  "glm-5.3-flash",
+  "hy4-preview",
+  "deepseek-v4.1-flash",
+  "minimax-m3",
+  "ling-3.1-flash",
+  "mimo-v2.6-flash",
+  "space-bunny",
+  "qwen3.8-flash"
+ ],
+ "pretty": {
+  "kimi-k2.8-preview": "Kimi K2.8 Preview",
+  "glm-5.3-flash": "GLM-5.3-Flash",
+  "hy4-preview": "Hy4 preview",
+  "deepseek-v4.1-flash": "DeepSeek V4.1 Flash",
+  "minimax-m3": "MiniMax-M3",
+  "ling-3.1-flash": "Ling-3.1-Flash",
+  "mimo-v2.6-flash": "MiMo-V2.6-Flash",
+  "space-bunny": "MiniMax-M3.1-Flash",
+  "qwen3.8-flash": "Qwen3.8-Flash"
+ },
+ "channel": {
+  "deepseek-v4.1-flash": "WorkBuddy CLI",
+  "glm-5.3-flash": "WorkBuddy CLI",
+  "hy4-preview": "WorkBuddy CLI",
+  "minimax-m3": "WorkBuddy CLI",
+  "kimi-k2.8-preview": "WorkBuddy CLI",
+  "space-bunny": "OpenCode CLI",
+  "mimo-v2.6-flash": "OpenCode CLI",
+  "ling-3.1-flash": "OpenRouter CLI",
+  "qwen3.8-flash": "Qoder CN CLI"
+ },
+ "per_model": {
+  "kimi-k2.8-preview": {
+   "n": 10,
+   "parse_ok": 10,
+   "format_ok": 10,
+   "flow_ok": 10,
+   "shape_degenerate": 1,
+   "p_out": {
+    "P1": 1,
+    "P2": 6,
+    "P3": 3
+   },
+   "p_main_match": 100.0,
+   "eco_rate": 80.0
+  },
+  "glm-5.3-flash": {
+   "n": 10,
+   "parse_ok": 10,
+   "format_ok": 10,
+   "flow_ok": 10,
+   "shape_degenerate": 0,
+   "p_out": {
+    "P1": 2,
+    "P2": 6,
+    "P3": 2
+   },
+   "p_main_match": 100.0,
+   "eco_rate": 90.0
+  },
+  "hy4-preview": {
+   "n": 10,
+   "parse_ok": 10,
+   "format_ok": 10,
+   "flow_ok": 10,
+   "shape_degenerate": 1,
+   "p_out": {
+    "P1": 2,
+    "P2": 6,
+    "P3": 2
+   },
+   "p_main_match": 90.0,
+   "eco_rate": 80.0
+  },
+  "deepseek-v4.1-flash": {
+   "n": 10,
+   "parse_ok": 10,
+   "format_ok": 10,
+   "flow_ok": 10,
+   "shape_degenerate": 0,
+   "p_out": {
+    "P1": 3,
+    "P2": 5,
+    "P3": 2
+   },
+   "p_main_match": 90.0,
+   "eco_rate": 90.0
+  },
+  "minimax-m3": {
+   "n": 10,
+   "parse_ok": 10,
+   "format_ok": 10,
+   "flow_ok": 10,
+   "shape_degenerate": 1,
+   "p_out": {
+    "P1": 4,
+    "P2": 5,
+    "P3": 1
+   },
+   "p_main_match": 90.0,
+   "eco_rate": 80.0
+  },
+  "ling-3.1-flash": {
+   "n": 10,
+   "parse_ok": 10,
+   "format_ok": 9,
+   "flow_ok": 10,
+   "shape_degenerate": 0,
+   "p_out": {
+    "P1": 2,
+    "P2": 5,
+    "P3": 3
+   },
+   "p_main_match": 100.0,
+   "eco_rate": 70.0
+  },
+  "mimo-v2.6-flash": {
+   "n": 10,
+   "parse_ok": 10,
+   "format_ok": 10,
+   "flow_ok": 10,
+   "shape_degenerate": 0,
+   "p_out": {
+    "P1": 1,
+    "P2": 6,
+    "P3": 3
+   },
+   "p_main_match": 100.0,
+   "eco_rate": 80.0
+  },
+  "space-bunny": {
+   "n": 10,
+   "parse_ok": 10,
+   "format_ok": 10,
+   "flow_ok": 10,
+   "shape_degenerate": 0,
+   "p_out": {
+    "P1": 4,
+    "P2": 5,
+    "P3": 1
+   },
+   "p_main_match": 80.0,
+   "eco_rate": 60.0
+  },
+  "qwen3.8-flash": {
+   "n": 10,
+   "parse_ok": 10,
+   "format_ok": 10,
+   "flow_ok": 10,
+   "shape_degenerate": 1,
+   "p_out": {
+    "P1": 4,
+    "P2": 6
+   },
+   "p_main_match": 80.0,
+   "eco_rate": 50.0
+  }
+ },
+ "out_of_codebook": {
+  "P3": 1
+ },
+ "potential_manifest": {
+  "n_with_type": 90,
+  "n_total": 90,
+  "potential": {
+   "n_records": 63,
+   "n_model_case": 63,
+   "observed_agreement": 1.0,
+   "fleiss_kappa": 1.0
+  },
+  "manifest": {
+   "n_records": 27,
+   "n_model_case": 27,
+   "observed_agreement": 1.0,
+   "fleiss_kappa": 1.0
+  }
+ },
+ "eco_detail": {
+  "1": {
+   "n_models": 9,
+   "n_distinct": 1,
+   "modal_share": 100.0
+  },
+  "3": {
+   "n_models": 9,
+   "n_distinct": 3,
+   "modal_share": 77.8
+  },
+  "4": {
+   "n_models": 9,
+   "n_distinct": 1,
+   "modal_share": 100.0
+  },
+  "5": {
+   "n_models": 9,
+   "n_distinct": 1,
+   "modal_share": 100.0
+  },
+  "6": {
+   "n_models": 9,
+   "n_distinct": 2,
+   "modal_share": 88.9
+  },
+  "8": {
+   "n_models": 9,
+   "n_distinct": 4,
+   "modal_share": 44.4
+  },
+  "12": {
+   "n_models": 9,
+   "n_distinct": 2,
+   "modal_share": 88.9
+  },
+  "13": {
+   "n_models": 9,
+   "n_distinct": 3,
+   "modal_share": 55.6
+  },
+  "14": {
+   "n_models": 9,
+   "n_distinct": 5,
+   "modal_share": 55.6
+  },
+  "15": {
+   "n_models": 9,
+   "n_distinct": 6,
+   "modal_share": 44.4
+  }
+ },
+ "summary": {
+  "format_ok_total": 89,
+  "flow_ok_total": 90,
+  "n_total": 90,
+  "parse_ok_total": 90,
+  "shape_degenerate_total": 4
+ }
+}

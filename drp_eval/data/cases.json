@@ -1,0 +1,317 @@
+[
+ {
+  "case_id": 1,
+  "batch": 1,
+  "gold_label": "超医保限定",
+  "scene": "临床药师",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 170
+ },
+ {
+  "case_id": 2,
+  "batch": 1,
+  "gold_label": "重复用药",
+  "scene": "审方",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 203
+ },
+ {
+  "case_id": 3,
+  "batch": 1,
+  "gold_label": "药物相互作用",
+  "scene": "门诊前置审方",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 151
+ },
+ {
+  "case_id": 4,
+  "batch": 1,
+  "gold_label": "医嘱给药途径错误",
+  "scene": "临床药师",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 152
+ },
+ {
+  "case_id": 5,
+  "batch": 1,
+  "gold_label": "药物选择（品种）",
+  "scene": "药学门诊",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 247
+ },
+ {
+  "case_id": 6,
+  "batch": 1,
+  "gold_label": "重复用药、重整",
+  "scene": "药学门诊",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 179
+ },
+ {
+  "case_id": 7,
+  "batch": 1,
+  "gold_label": "患者依从性差",
+  "scene": "药学门诊",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 179
+ },
+ {
+  "case_id": 8,
+  "batch": 1,
+  "gold_label": "药物选择（剂型）",
+  "scene": "药学门诊",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 132
+ },
+ {
+  "case_id": 9,
+  "batch": 1,
+  "gold_label": "给药途径不适宜",
+  "scene": "审方",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 156
+ },
+ {
+  "case_id": 10,
+  "batch": 1,
+  "gold_label": "药物选择",
+  "scene": "临床药师",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 160
+ },
+ {
+  "case_id": 11,
+  "batch": 1,
+  "gold_label": "无适应症用药-医生",
+  "scene": "门诊前置审方",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 121
+ },
+ {
+  "case_id": 12,
+  "batch": 1,
+  "gold_label": "无适应症用药-患者",
+  "scene": "药学门诊",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 141
+ },
+ {
+  "case_id": 13,
+  "batch": 1,
+  "gold_label": "用法不当",
+  "scene": "药学门诊",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 136
+ },
+ {
+  "case_id": 14,
+  "batch": 1,
+  "gold_label": "患者依从性",
+  "scene": "药学门诊",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 201
+ },
+ {
+  "case_id": 15,
+  "batch": 1,
+  "gold_label": "药物不良反应",
+  "scene": "临床药师",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 194
+ },
+ {
+  "case_id": 16,
+  "batch": 1,
+  "gold_label": "用法用量不适合",
+  "scene": "临床药师",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 145
+ },
+ {
+  "case_id": 17,
+  "batch": 1,
+  "gold_label": "转诊漏开医嘱",
+  "scene": "临床药师",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 117
+ },
+ {
+  "case_id": 18,
+  "batch": 1,
+  "gold_label": "溶媒选择不当",
+  "scene": "审方",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 187
+ },
+ {
+  "case_id": 19,
+  "batch": 1,
+  "gold_label": "相关规定限量",
+  "scene": "续方门诊",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 108
+ },
+ {
+  "case_id": 20,
+  "batch": 1,
+  "gold_label": "药物供应",
+  "scene": "续方门诊",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 122
+ },
+ {
+  "case_id": 1,
+  "batch": 2,
+  "gold_label": "案例1",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 130
+ },
+ {
+  "case_id": 2,
+  "batch": 2,
+  "gold_label": "案例2",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 192
+ },
+ {
+  "case_id": 3,
+  "batch": 2,
+  "gold_label": "案例3",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 119
+ },
+ {
+  "case_id": 4,
+  "batch": 2,
+  "gold_label": "案例4",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 115
+ },
+ {
+  "case_id": 5,
+  "batch": 2,
+  "gold_label": "案例5",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 142
+ },
+ {
+  "case_id": 6,
+  "batch": 2,
+  "gold_label": "案例6",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 147
+ },
+ {
+  "case_id": 7,
+  "batch": 2,
+  "gold_label": "案例7",
+  "scene": "",
+  "n_drp": 2,
+  "is_double_drp": true,
+  "narrative_len": 98
+ },
+ {
+  "case_id": 8,
+  "batch": 2,
+  "gold_label": "案例8",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 102
+ },
+ {
+  "case_id": 9,
+  "batch": 2,
+  "gold_label": "案例9",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 225
+ },
+ {
+  "case_id": 10,
+  "batch": 2,
+  "gold_label": "案例10",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 100
+ },
+ {
+  "case_id": 11,
+  "batch": 2,
+  "gold_label": "案例11",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 163
+ },
+ {
+  "case_id": 12,
+  "batch": 2,
+  "gold_label": "案例12",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 193
+ },
+ {
+  "case_id": 13,
+  "batch": 2,
+  "gold_label": "案例13",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 159
+ },
+ {
+  "case_id": 14,
+  "batch": 2,
+  "gold_label": "案例14",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 130
+ },
+ {
+  "case_id": 15,
+  "batch": 2,
+  "gold_label": "案例15",
+  "scene": "",
+  "n_drp": 1,
+  "is_double_drp": false,
+  "narrative_len": 107
+ }
+]

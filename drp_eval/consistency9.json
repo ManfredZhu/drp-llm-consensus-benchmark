@@ -1,0 +1,135 @@
+{
+ "sap_version": "v1.22",
+ "n_models": 9,
+ "models": [
+  "deepseek-v4.1-flash",
+  "glm-5.3-flash",
+  "space-bunny",
+  "minimax-m3",
+  "mimo-v2.6-flash",
+  "hy4-preview",
+  "qwen3.8-flash",
+  "ling-3.1-flash",
+  "kimi-k2.8-preview"
+ ],
+ "A": {
+  "per_model": {
+   "deepseek-v4.1-flash": {
+    "hit": 85,
+    "n": 98,
+    "rate": 0.8673
+   },
+   "glm-5.3-flash": {
+    "hit": 85,
+    "n": 98,
+    "rate": 0.8673
+   },
+   "space-bunny": {
+    "hit": 82,
+    "n": 98,
+    "rate": 0.8367
+   },
+   "minimax-m3": {
+    "hit": 84,
+    "n": 98,
+    "rate": 0.8571
+   },
+   "mimo-v2.6-flash": {
+    "hit": 83,
+    "n": 98,
+    "rate": 0.8469
+   },
+   "hy4-preview": {
+    "hit": 86,
+    "n": 98,
+    "rate": 0.8776
+   },
+   "qwen3.8-flash": {
+    "hit": 78,
+    "n": 98,
+    "rate": 0.7959
+   },
+   "ling-3.1-flash": {
+    "hit": 84,
+    "n": 98,
+    "rate": 0.8571
+   },
+   "kimi-k2.8-preview": {
+    "hit": 82,
+    "n": 98,
+    "rate": 0.8367
+   }
+  },
+  "pair_agreement": 0.9277,
+  "n_consensus_cells": 98,
+  "fleiss_kappa_by_dim": {
+   "P": 0.94,
+   "E1": 0.978,
+   "E2": 0.865,
+   "C": 0.849,
+   "I": 0.825,
+   "A": 0.901,
+   "O": 0.823
+  }
+ },
+ "B": {
+  "per_model": {
+   "deepseek-v4.1-flash": {
+    "hit": 79,
+    "n": 98,
+    "rate": 0.8061
+   },
+   "glm-5.3-flash": {
+    "hit": 81,
+    "n": 98,
+    "rate": 0.8265
+   },
+   "space-bunny": {
+    "hit": 79,
+    "n": 98,
+    "rate": 0.8061
+   },
+   "minimax-m3": {
+    "hit": 78,
+    "n": 98,
+    "rate": 0.7959
+   },
+   "mimo-v2.6-flash": {
+    "hit": 82,
+    "n": 98,
+    "rate": 0.8367
+   },
+   "hy4-preview": {
+    "hit": 83,
+    "n": 98,
+    "rate": 0.8469
+   },
+   "qwen3.8-flash": {
+    "hit": 81,
+    "n": 98,
+    "rate": 0.8265
+   },
+   "ling-3.1-flash": {
+    "hit": 81,
+    "n": 98,
+    "rate": 0.8265
+   },
+   "kimi-k2.8-preview": {
+    "hit": 82,
+    "n": 98,
+    "rate": 0.8367
+   }
+  },
+  "pair_agreement": 0.8985,
+  "n_consensus_cells": 98,
+  "fleiss_kappa_by_dim": {
+   "P": 0.857,
+   "E1": 0.902,
+   "E2": 0.741,
+   "C": 0.843,
+   "I": 0.819,
+   "A": 0.689,
+   "O": 0.577
+  }
+ }
+}

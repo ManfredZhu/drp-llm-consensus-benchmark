@@ -1,0 +1,1817 @@
+{
+ "1|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "P2.1"
+  ],
+  "votes": {
+   "P2.1": 45
+  },
+  "n_answers": 2,
+  "top": [
+   "P2.1",
+   45
+  ]
+ },
+ "1|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E1.1"
+  ],
+  "votes": {
+   "E1.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E1.1",
+   46
+  ]
+ },
+ "1|E2": {
+  "consensus": false,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 25,
+  "gold": [
+   "E2.1"
+  ],
+  "votes": {
+   "E2.1": 19
+  },
+  "n_answers": 3,
+  "top": [
+   "E2.2",
+   25
+  ]
+ },
+ "1|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 44,
+  "gold": [
+   "C3.1"
+  ],
+  "votes": {
+   "C3.1": 44
+  },
+  "n_answers": 4,
+  "top": [
+   "C3.1",
+   44
+  ]
+ },
+ "1|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 35,
+  "gold": [
+   "I2.3",
+   "I4.1"
+  ],
+  "votes": {
+   "I2.3": 42,
+   "I4.1": 35
+  },
+  "n_answers": 4,
+  "top": [
+   "I2.3",
+   42
+  ]
+ },
+ "1|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 37,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 37
+  },
+  "n_answers": 3,
+  "top": [
+   "A1.1",
+   37
+  ]
+ },
+ "1|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 36,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 36
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   36
+  ]
+ },
+ "2|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "P2.1"
+  ],
+  "votes": {
+   "P2.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "P2.1",
+   46
+  ]
+ },
+ "2|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 44,
+  "gold": [
+   "E1.1"
+  ],
+  "votes": {
+   "E1.1": 44
+  },
+  "n_answers": 3,
+  "top": [
+   "E1.1",
+   44
+  ]
+ },
+ "2|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "E2.1"
+  ],
+  "votes": {
+   "E2.1": 45
+  },
+  "n_answers": 2,
+  "top": [
+   "E2.1",
+   45
+  ]
+ },
+ "2|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 38,
+  "gold": [
+   "C3.2"
+  ],
+  "votes": {
+   "C3.2": 38
+  },
+  "n_answers": 3,
+  "top": [
+   "C3.2",
+   38
+  ]
+ },
+ "2|I": {
+  "consensus": false,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 21,
+  "gold": [
+   "I2.3",
+   "I4.1"
+  ],
+  "votes": {
+   "I2.3": 41,
+   "I4.1": 7
+  },
+  "n_answers": 4,
+  "top": [
+   "I2.3",
+   41
+  ]
+ },
+ "2|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 44,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 44
+  },
+  "n_answers": 3,
+  "top": [
+   "A1.1",
+   44
+  ]
+ },
+ "2|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 44,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 44
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   44
+  ]
+ },
+ "3|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "P2.1"
+  ],
+  "votes": {
+   "P2.1": 45
+  },
+  "n_answers": 2,
+  "top": [
+   "P2.1",
+   45
+  ]
+ },
+ "3|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "E1.1"
+  ],
+  "votes": {
+   "E1.1": 45
+  },
+  "n_answers": 2,
+  "top": [
+   "E1.1",
+   45
+  ]
+ },
+ "3|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 33,
+  "gold": [
+   "E2.2"
+  ],
+  "votes": {
+   "E2.2": 33
+  },
+  "n_answers": 3,
+  "top": [
+   "E2.2",
+   33
+  ]
+ },
+ "3|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 37,
+  "gold": [
+   "C4.4"
+  ],
+  "votes": {
+   "C4.4": 37
+  },
+  "n_answers": 5,
+  "top": [
+   "C4.4",
+   37
+  ]
+ },
+ "3|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 36,
+  "gold": [
+   "I2.3",
+   "I4.5"
+  ],
+  "votes": {
+   "I2.3": 39,
+   "I4.5": 36
+  },
+  "n_answers": 3,
+  "top": [
+   "I2.3",
+   39
+  ]
+ },
+ "3|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "A1.1",
+   46
+  ]
+ },
+ "3|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 45
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   45
+  ]
+ },
+ "4|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "P2.1"
+  ],
+  "votes": {
+   "P2.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "P2.1",
+   46
+  ]
+ },
+ "4|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 37,
+  "gold": [
+   "E1.1"
+  ],
+  "votes": {
+   "E1.1": 37
+  },
+  "n_answers": 3,
+  "top": [
+   "E1.1",
+   37
+  ]
+ },
+ "4|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 33,
+  "gold": [
+   "E2.4"
+  ],
+  "votes": {
+   "E2.4": 33
+  },
+  "n_answers": 4,
+  "top": [
+   "E2.4",
+   33
+  ]
+ },
+ "4|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 36,
+  "gold": [
+   "C1.2"
+  ],
+  "votes": {
+   "C1.2": 36
+  },
+  "n_answers": 3,
+  "top": [
+   "C1.2",
+   36
+  ]
+ },
+ "4|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 39,
+  "gold": [
+   "I2.3",
+   "I4.2"
+  ],
+  "votes": {
+   "I2.3": 39,
+   "I4.2": 39
+  },
+  "n_answers": 4,
+  "top": [
+   "I2.3",
+   39
+  ]
+ },
+ "4|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "A1.1",
+   46
+  ]
+ },
+ "4|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "O2.1",
+   46
+  ]
+ },
+ "5|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 43,
+  "gold": [
+   "P2.1"
+  ],
+  "votes": {
+   "P2.1": 43
+  },
+  "n_answers": 3,
+  "top": [
+   "P2.1",
+   43
+  ]
+ },
+ "5|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 43,
+  "gold": [
+   "E1.4"
+  ],
+  "votes": {
+   "E1.4": 43
+  },
+  "n_answers": 3,
+  "top": [
+   "E1.4",
+   43
+  ]
+ },
+ "5|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 43,
+  "gold": [
+   "E2.4"
+  ],
+  "votes": {
+   "E2.4": 43
+  },
+  "n_answers": 3,
+  "top": [
+   "E2.4",
+   43
+  ]
+ },
+ "5|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 16,
+  "gold": [
+   "C2.5",
+   "C6.7"
+  ],
+  "votes": {
+   "C2.5": 33,
+   "C6.7": 16
+  },
+  "n_answers": 5,
+  "top": [
+   "C2.5",
+   33
+  ]
+ },
+ "5|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 20,
+  "gold": [
+   "I3.2",
+   "I4.8"
+  ],
+  "votes": {
+   "I3.2": 44,
+   "I4.8": 20
+  },
+  "n_answers": 5,
+  "top": [
+   "I3.2",
+   44
+  ]
+ },
+ "5|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 41,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 41
+  },
+  "n_answers": 4,
+  "top": [
+   "A1.1",
+   41
+  ]
+ },
+ "5|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 44,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 44
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   44
+  ]
+ },
+ "6|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 38,
+  "gold": [
+   "P2.1"
+  ],
+  "votes": {
+   "P2.1": 38
+  },
+  "n_answers": 2,
+  "top": [
+   "P2.1",
+   38
+  ]
+ },
+ "6|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 44,
+  "gold": [
+   "E1.4"
+  ],
+  "votes": {
+   "E1.4": 44
+  },
+  "n_answers": 3,
+  "top": [
+   "E1.4",
+   44
+  ]
+ },
+ "6|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 44,
+  "gold": [
+   "E2.1"
+  ],
+  "votes": {
+   "E2.1": 44
+  },
+  "n_answers": 2,
+  "top": [
+   "E2.1",
+   44
+  ]
+ },
+ "6|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "C2.5"
+  ],
+  "votes": {
+   "C2.5": 46
+  },
+  "n_answers": 2,
+  "top": [
+   "C2.5",
+   46
+  ]
+ },
+ "6|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "I3.2"
+  ],
+  "votes": {
+   "I3.2": 46
+  },
+  "n_answers": 5,
+  "top": [
+   "I3.2",
+   46
+  ]
+ },
+ "6|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 33,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 33
+  },
+  "n_answers": 2,
+  "top": [
+   "A1.1",
+   33
+  ]
+ },
+ "6|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 38,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 38
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   38
+  ]
+ },
+ "7|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 14,
+  "gold": [
+   "P1.1",
+   "P2.1"
+  ],
+  "votes": {
+   "P1.1": 14,
+   "P2.1": 30
+  },
+  "n_answers": 3,
+  "top": [
+   "P2.1",
+   30
+  ]
+ },
+ "7|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E1.3"
+  ],
+  "votes": {
+   "E1.3": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E1.3",
+   46
+  ]
+ },
+ "7|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E2.1"
+  ],
+  "votes": {
+   "E2.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E2.1",
+   46
+  ]
+ },
+ "7|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 42,
+  "gold": [
+   "C6.1"
+  ],
+  "votes": {
+   "C6.1": 42
+  },
+  "n_answers": 3,
+  "top": [
+   "C6.1",
+   42
+  ]
+ },
+ "7|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 9,
+  "gold": [
+   "I2.3",
+   "I4.1"
+  ],
+  "votes": {
+   "I2.3": 36,
+   "I4.1": 9
+  },
+  "n_answers": 4,
+  "top": [
+   "I2.3",
+   36
+  ]
+ },
+ "7|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 32,
+  "gold": [
+   "A1.3"
+  ],
+  "votes": {
+   "A1.3": 32
+  },
+  "n_answers": 5,
+  "top": [
+   "A1.3",
+   32
+  ]
+ },
+ "7|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 27,
+  "gold": [
+   "O3.2"
+  ],
+  "votes": {
+   "O3.2": 27
+  },
+  "n_answers": 4,
+  "top": [
+   "O3.2",
+   27
+  ]
+ },
+ "8|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 28,
+  "gold": [
+   "P2.1"
+  ],
+  "votes": {
+   "P2.1": 28
+  },
+  "n_answers": 5,
+  "top": [
+   "P2.1",
+   28
+  ]
+ },
+ "8|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E1.2"
+  ],
+  "votes": {
+   "E1.2": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E1.2",
+   46
+  ]
+ },
+ "8|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E2.1"
+  ],
+  "votes": {
+   "E2.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E2.1",
+   46
+  ]
+ },
+ "8|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 39,
+  "gold": [
+   "C6.2"
+  ],
+  "votes": {
+   "C6.2": 39
+  },
+  "n_answers": 5,
+  "top": [
+   "C6.2",
+   39
+  ]
+ },
+ "8|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 17,
+  "gold": [
+   "I2.3",
+   "I4.1"
+  ],
+  "votes": {
+   "I2.3": 17,
+   "I4.1": 25
+  },
+  "n_answers": 4,
+  "top": [
+   "I4.1",
+   25
+  ]
+ },
+ "8|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "A1.1",
+   46
+  ]
+ },
+ "8|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "O2.1",
+   46
+  ]
+ },
+ "9|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "P1.1"
+  ],
+  "votes": {
+   "P1.1": 46
+  },
+  "n_answers": 2,
+  "top": [
+   "P1.1",
+   46
+  ]
+ },
+ "9|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "E1.1"
+  ],
+  "votes": {
+   "E1.1": 45
+  },
+  "n_answers": 2,
+  "top": [
+   "E1.1",
+   45
+  ]
+ },
+ "9|E2": {
+  "consensus": false,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 44,
+  "gold": [
+   "E2.4"
+  ],
+  "votes": {
+   "E2.4": 0
+  },
+  "n_answers": 2,
+  "top": [
+   "E2.1",
+   44
+  ]
+ },
+ "9|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "C4.1"
+  ],
+  "votes": {
+   "C4.1": 46
+  },
+  "n_answers": 2,
+  "top": [
+   "C4.1",
+   46
+  ]
+ },
+ "9|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 34,
+  "gold": [
+   "I2.3",
+   "I4.4"
+  ],
+  "votes": {
+   "I2.3": 40,
+   "I4.4": 34
+  },
+  "n_answers": 5,
+  "top": [
+   "I2.3",
+   40
+  ]
+ },
+ "9|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 45
+  },
+  "n_answers": 2,
+  "top": [
+   "A1.1",
+   45
+  ]
+ },
+ "9|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 45
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   45
+  ]
+ },
+ "10|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "P1.1"
+  ],
+  "votes": {
+   "P1.1": 45
+  },
+  "n_answers": 2,
+  "top": [
+   "P1.1",
+   45
+  ]
+ },
+ "10|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E1.1"
+  ],
+  "votes": {
+   "E1.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E1.1",
+   46
+  ]
+ },
+ "10|E2": {
+  "consensus": false,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 35,
+  "gold": [
+   "E2.3"
+  ],
+  "votes": {
+   "E2.3": 10
+  },
+  "n_answers": 3,
+  "top": [
+   "E2.1",
+   35
+  ]
+ },
+ "10|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 41,
+  "gold": [
+   "C5.1"
+  ],
+  "votes": {
+   "C5.1": 41
+  },
+  "n_answers": 3,
+  "top": [
+   "C5.1",
+   41
+  ]
+ },
+ "10|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 31,
+  "gold": [
+   "I2.3",
+   "I4.7"
+  ],
+  "votes": {
+   "I2.3": 31,
+   "I4.7": 34
+  },
+  "n_answers": 5,
+  "top": [
+   "I4.7",
+   34
+  ]
+ },
+ "10|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 44,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 44
+  },
+  "n_answers": 2,
+  "top": [
+   "A1.1",
+   44
+  ]
+ },
+ "10|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 43,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 43
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   43
+  ]
+ },
+ "11|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 43,
+  "gold": [
+   "P1.1"
+  ],
+  "votes": {
+   "P1.1": 43
+  },
+  "n_answers": 4,
+  "top": [
+   "P1.1",
+   43
+  ]
+ },
+ "11|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E1.4"
+  ],
+  "votes": {
+   "E1.4": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E1.4",
+   46
+  ]
+ },
+ "11|E2": {
+  "consensus": false,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 41,
+  "gold": [
+   "E2.4"
+  ],
+  "votes": {
+   "E2.4": 4
+  },
+  "n_answers": 3,
+  "top": [
+   "E2.3",
+   41
+  ]
+ },
+ "11|C": {
+  "consensus": false,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 32,
+  "gold": [
+   "C6.3"
+  ],
+  "votes": {
+   "C6.3": 14
+  },
+  "n_answers": 7,
+  "top": [
+   "C2.5",
+   32
+  ]
+ },
+ "11|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 31,
+  "gold": [
+   "I3.2",
+   "I3.3"
+  ],
+  "votes": {
+   "I3.2": 31,
+   "I3.3": 38
+  },
+  "n_answers": 6,
+  "top": [
+   "I3.3",
+   38
+  ]
+ },
+ "11|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 26,
+  "gold": [
+   "A1.4"
+  ],
+  "votes": {
+   "A1.4": 26
+  },
+  "n_answers": 3,
+  "top": [
+   "A1.4",
+   26
+  ]
+ },
+ "11|O": {
+  "consensus": false,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 25,
+  "gold": [
+   "O1.1"
+  ],
+  "votes": {
+   "O1.1": 21
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   25
+  ]
+ },
+ "12|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 42,
+  "gold": [
+   "P1.1"
+  ],
+  "votes": {
+   "P1.1": 42
+  },
+  "n_answers": 3,
+  "top": [
+   "P1.1",
+   42
+  ]
+ },
+ "12|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E1.4"
+  ],
+  "votes": {
+   "E1.4": 46
+  },
+  "n_answers": 3,
+  "top": [
+   "E1.4",
+   46
+  ]
+ },
+ "12|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 23,
+  "gold": [
+   "E2.4"
+  ],
+  "votes": {
+   "E2.4": 23
+  },
+  "n_answers": 2,
+  "top": [
+   "E2.3",
+   23
+  ]
+ },
+ "12|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 11,
+  "gold": [
+   "C2.5",
+   "C6.3"
+  ],
+  "votes": {
+   "C2.5": 32,
+   "C6.3": 11
+  },
+  "n_answers": 8,
+  "top": [
+   "C2.5",
+   32
+  ]
+ },
+ "12|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 43,
+  "gold": [
+   "I3.2"
+  ],
+  "votes": {
+   "I3.2": 43
+  },
+  "n_answers": 5,
+  "top": [
+   "I3.2",
+   43
+  ]
+ },
+ "12|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 26,
+  "gold": [
+   "A1.4"
+  ],
+  "votes": {
+   "A1.4": 26
+  },
+  "n_answers": 2,
+  "top": [
+   "A1.4",
+   26
+  ]
+ },
+ "12|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 26,
+  "gold": [
+   "O1.1"
+  ],
+  "votes": {
+   "O1.1": 26
+  },
+  "n_answers": 2,
+  "top": [
+   "O1.1",
+   26
+  ]
+ },
+ "13|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 37,
+  "gold": [
+   "P1.1"
+  ],
+  "votes": {
+   "P1.1": 37
+  },
+  "n_answers": 2,
+  "top": [
+   "P1.1",
+   37
+  ]
+ },
+ "13|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E1.1"
+  ],
+  "votes": {
+   "E1.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E1.1",
+   46
+  ]
+ },
+ "13|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 33,
+  "gold": [
+   "E2.3"
+  ],
+  "votes": {
+   "E2.3": 33
+  },
+  "n_answers": 4,
+  "top": [
+   "E2.3",
+   33
+  ]
+ },
+ "13|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 32,
+  "gold": [
+   "C3.5"
+  ],
+  "votes": {
+   "C3.5": 32
+  },
+  "n_answers": 3,
+  "top": [
+   "C3.5",
+   32
+  ]
+ },
+ "13|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 33,
+  "gold": [
+   "I2.3",
+   "I4.1"
+  ],
+  "votes": {
+   "I2.3": 41,
+   "I4.1": 33
+  },
+  "n_answers": 5,
+  "top": [
+   "I2.3",
+   41
+  ]
+ },
+ "13|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 41,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 41
+  },
+  "n_answers": 2,
+  "top": [
+   "A1.1",
+   41
+  ]
+ },
+ "13|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 41,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 41
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   41
+  ]
+ },
+ "14|P": {
+  "consensus": true,
+  "n_valid": 45,
+  "k": 1,
+  "threshold": 38,
+  "gold": [
+   "P1.1"
+  ],
+  "votes": {
+   "P1.1": 38
+  },
+  "n_answers": 5,
+  "top": [
+   "P1.1",
+   38
+  ]
+ },
+ "14|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E1.1"
+  ],
+  "votes": {
+   "E1.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E1.1",
+   46
+  ]
+ },
+ "14|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 43,
+  "gold": [
+   "E2.1"
+  ],
+  "votes": {
+   "E2.1": 43
+  },
+  "n_answers": 2,
+  "top": [
+   "E2.1",
+   43
+  ]
+ },
+ "14|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 35,
+  "gold": [
+   "C4.5"
+  ],
+  "votes": {
+   "C4.5": 35
+  },
+  "n_answers": 5,
+  "top": [
+   "C4.5",
+   35
+  ]
+ },
+ "14|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 2,
+  "threshold": 17,
+  "gold": [
+   "I2.2",
+   "I4.8"
+  ],
+  "votes": {
+   "I2.2": 17,
+   "I4.8": 27
+  },
+  "n_answers": 6,
+  "top": [
+   "I4.8",
+   27
+  ]
+ },
+ "14|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "A1.1",
+   46
+  ]
+ },
+ "14|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 43,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 43
+  },
+  "n_answers": 2,
+  "top": [
+   "O2.1",
+   43
+  ]
+ },
+ "15|P": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "P3.3"
+  ],
+  "votes": {
+   "P3.3": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "P3.3",
+   46
+  ]
+ },
+ "15|E1": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 39,
+  "gold": [
+   "E1.5"
+  ],
+  "votes": {
+   "E1.5": 39
+  },
+  "n_answers": 3,
+  "top": [
+   "E1.5",
+   39
+  ]
+ },
+ "15|E2": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "E2.1"
+  ],
+  "votes": {
+   "E2.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "E2.1",
+   46
+  ]
+ },
+ "15|C": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 45,
+  "gold": [
+   "C7.2"
+  ],
+  "votes": {
+   "C7.2": 45
+  },
+  "n_answers": 4,
+  "top": [
+   "C7.2",
+   45
+  ]
+ },
+ "15|I": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "I5.2"
+  ],
+  "votes": {
+   "I5.2": 46
+  },
+  "n_answers": 3,
+  "top": [
+   "I5.2",
+   46
+  ]
+ },
+ "15|A": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "A1.1"
+  ],
+  "votes": {
+   "A1.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "A1.1",
+   46
+  ]
+ },
+ "15|O": {
+  "consensus": true,
+  "n_valid": 46,
+  "k": 1,
+  "threshold": 46,
+  "gold": [
+   "O2.1"
+  ],
+  "votes": {
+   "O2.1": 46
+  },
+  "n_answers": 1,
+  "top": [
+   "O2.1",
+   46
+  ]
+ }
+}
