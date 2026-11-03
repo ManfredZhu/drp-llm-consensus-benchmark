@@ -1,7 +1,7 @@
 # Data and code for: Benchmarking nine large language models against
 # human consensus for drug-related problem coding
 
-Version 1.0.0 · released 2026-11-03
+Version 1.0.1 · released 2026-11-03
 
 This deposit contains the model outputs, the human rating tallies and the
 analysis code behind every number reported in the manuscript. All reported
@@ -128,10 +128,12 @@ provided in full alongside this file.
 
 ## Ethics and privacy
 
-The study was approved by the Ethics Committee of Tongren Hospital, Shanghai
-Jiao Tong University School of Medicine. All rated cases are pre-existing
-clinical vignettes; no patient-identifiable information is present in this
-deposit. Pharmacists took part voluntarily and are identified only by
+The cases are constructed vignettes: each reproduces a situation that occurs in
+routine pharmacy practice, but the narratives were written for this study and do
+not derive from, or correspond to, any individual patient. No patient was
+involved and no patient-identifiable information is present in this deposit. The
+institutional review board of Tongren Hospital, Shanghai Jiao Tong University
+School of Medicine determined that the study did not require ethics approval. Pharmacists took part voluntarily and are identified only by
 pseudonymous labels. The vignette narratives are not redistributed in this
 deposit; `drp_eval/data/cases.json` carries the case index only. The narratives
 are available from the corresponding author on reasonable request, together
