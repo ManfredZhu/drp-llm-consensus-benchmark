@@ -2,7 +2,7 @@
   "title": "Data and code for: Benchmarking nine large language models against human consensus for drug-related problem coding",
   "upload_type": "dataset",
   "publication_date": "2026-11-03",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "<p>Model outputs, human rating tallies and analysis code behind a benchmark of nine large language models against a pharmacist consensus standard for drug-related problem coding. The deposit contains 1,980 model sessions with verbatim responses, the per-cell vote tallies of two back-to-back pharmacist rating rounds on constructed vignettes, the reference code sets, and the scripts that regenerate every reported statistic and figure.</p><p>The reference standard is a consensus product rather than an expert panel: 139 and 46 pharmacists rated 20 and 15 vignettes independently, and a cell is treated as consensus only when its reference code set reaches the k-th highest vote. The AI test set comprises 98 consensus cells and 7 contested cells.</p><p>Data are released under CC BY 4.0; code under the MIT licence.</p>",
   "creators": [
     {"name": "Zhang, Ping", "affiliation": "Department of Pharmacy, Tongren Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China"},

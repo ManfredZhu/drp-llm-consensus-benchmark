@@ -6,7 +6,8 @@
   "scene": "临床药师",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 170
+  "narrative_zh": "患者，男，87岁，因慢性心衰急性加重住院，医生开具冻干重组人脑利钠肽0.5mg 静注泵推使用，使用第4天临床药师查房发现患者仍在医保使用冻干重组人脑利钠肽，因为冻干重组人脑利钠肽医保限控支付3天，3天后继续使用需要签署自费使用知情同意书转自费使用，或者停用医嘱，故临床药师建议医生和患者沟通并调整医嘱，医生接受意见，与患者沟通后，停用医嘱。",
+  "narrative_en": "An 87-year-old man was admitted with acute decompensation of chronic heart failure and started on lyophilised recombinant human brain natriuretic peptide 0.5 mg by continuous intravenous infusion. On day 4 the clinical pharmacist found that he was still receiving the drug under medical insurance. Reimbursement is limited to three days; continuing beyond that requires a signed self-pay consent form or discontinuation of the order. The pharmacist advised the prescriber to discuss the options with the patient and to amend the order. The prescriber agreed, spoke with the patient, and discontinued the drug."
  },
  {
   "case_id": 2,
@@ -15,7 +16,8 @@
   "scene": "审方",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 203
+  "narrative_zh": "患者，男，83岁，临床诊断：脑梗死。医生开具医嘱：舒血宁注射液20ml+5%葡萄糖注射液 250ml 静脉滴注 每日一次银杏达莫注射液25ml+0.9%氯化钠注射液100ml 静脉滴注 每日一次药师审方进行拦截，因为舒血宁注射液主要成分为银杏叶提取物，与银杏达莫注射液存在重复用药，会造成头晕、血压升高或出血风险增大等问题。药师与医生沟通，建议两者选用一种即可，医生接受建议并更改，停止银杏达莫注射液医嘱。",
+  "narrative_en": "An 83-year-old man with cerebral infarction was prescribed Shuxuening injection 20 mL with 5% glucose 250 mL by intravenous infusion once daily, together with Ginkgo leaf extract and dipyridamole injection 25 mL with 0.9% sodium chloride 100 mL once daily. The pharmacist intercepted the order at review: both products are ginkgo-based, so their combined use constitutes duplicate therapy and carries risks of dizziness, raised blood pressure and bleeding. The pharmacist suggested keeping either one. The prescriber agreed and stopped the dipyridamole-containing product."
  },
  {
   "case_id": 3,
@@ -24,7 +26,8 @@
   "scene": "门诊前置审方",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 151
+  "narrative_zh": "患者信息：男，44岁，临床诊断：肺部感染。医生开具处方：头孢地尼分散片 每次1片 口服 每日3次复方甘草口服溶液每次10ml 口服 每日3次药师前置审方进行拦截，因为复方甘草口服溶液含有酒精，与头孢同时服用会发生双硫仑样反应，药师与医生沟通，建议更换不含酒精的止咳药水，医生接受建议并更改，执行新医嘱。",
+  "narrative_en": "A 44-year-old man with pulmonary infection was prescribed cefdinir dispersible tablets, one tablet three times daily by mouth, and compound glycyrrhiza oral solution 10 mL three times daily. Prospective review blocked the order because the oral solution contains alcohol and co-administration with a cephalosporin may provoke a disulfiram-like reaction. The pharmacist suggested an alcohol-free antitussive. The prescriber agreed and the new prescription was dispensed."
  },
  {
   "case_id": 4,
@@ -33,7 +36,8 @@
   "scene": "临床药师",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 152
+  "narrative_zh": "患者信息：男，70岁，入院诊断为慢性阻塞性肺病伴有急性加重，社区获得性肺炎，非重症。临床药师审核医嘱时该患者使用艾普拉唑肠溶片用法用量为5mg iv qd。根据说明书，艾普拉唑肠溶片给药途径为口服。因此，药师与医生沟通，建议调整艾普拉唑肠溶片用法用量为5mg 口服 qd。医生接受建议并更改，新处方执行。",
+  "narrative_en": "A 70-year-old man admitted with acute exacerbation of chronic obstructive pulmonary disease and non-severe community-acquired pneumonia was prescribed ilaprazole enteric-coated tablets 5 mg intravenously once daily. The label specifies oral administration only. The pharmacist raised this with the prescriber, who changed the order to 5 mg orally once daily; the new prescription was executed."
  },
  {
   "case_id": 5,
@@ -42,7 +46,8 @@
   "scene": "药学门诊",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 247
+  "narrative_zh": "患者，男性，45岁，有哮喘20年病史，使用沙美特罗替卡松粉吸入剂(50μg/250μg)早晚各1吸，哮喘症状控制良好，近一年未有急性发作。1月前，患者体检发现血压150/110mmHg，就诊心内科后，服用美托洛尔25mg qd po控制血压。患者3周前哮喘急性发作入急诊，医生和药师评估患者肺功能，询问患者用药史后，考虑患者此次哮喘急性发作可能与近期服用美托洛尔相关，药师建议将美托洛尔25mg qd po换成缬沙坦80mg qd po治疗，换用药物后，随访患者，哮喘症状控制良好未有急性发作。",
+  "narrative_en": "A 45-year-old man with a 20-year history of asthma, well controlled on salmeterol/fluticasone 50/250 µg one inhalation morning and evening with no exacerbation for a year, was found to have a blood pressure of 150/110 mmHg at a health check. Cardiology started metoprolol 25 mg once daily. Three weeks later he presented to the emergency department with an acute asthma attack. After assessing lung function and reviewing his medication history, the team considered the attack related to the recent introduction of metoprolol. The pharmacist suggested replacing metoprolol 25 mg once daily with valsartan 80 mg once daily. After the switch, follow-up showed good asthma control with no further attacks."
  },
  {
   "case_id": 6,
@@ -51,7 +56,8 @@
   "scene": "药学门诊",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 179
+  "narrative_zh": "患者，女性，65岁，5天前就诊于心内科与内分泌科，两位医师根据病人主诉“睡眠障碍”而分别开具了镇静安眠药。2天前，患者主诉服药后，整天感到昏昏沉沉就诊于药物门诊，经药师查询病人用药发现其同时使用阿普唑仑片0.4 mg qn po和艾司唑仑片 1mg qn po，药师联系医生后告知患者，这两种药物只要服用其中一种即可。患者停服艾司唑仑片后，白天未再出现昏睡。",
+  "narrative_en": "A 65-year-old woman who had consulted cardiology and endocrinology five days earlier for \"sleep disturbance\" had been prescribed a sedative by each physician. Two days later she attended the medication clinic complaining of feeling drowsy all day. Review of her medication showed concurrent use of alprazolam 0.4 mg and estazolam 1 mg, each at bedtime. The pharmacist contacted the prescriber and explained to the patient that only one of the two was needed. After she stopped estazolam, the daytime drowsiness did not recur."
  },
  {
   "case_id": 7,
@@ -60,7 +66,8 @@
   "scene": "药学门诊",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 179
+  "narrative_zh": "患者，男性，38岁，2月前确诊“2型糖尿病”，使用二甲双胍片 0.5g tid po降血糖，药师对患者进行随访发现患者血糖控制欠佳。患者自诉，每天需要3次服药，经常因为上班繁忙，会忘记而错过药物治疗。药师和患者讨论药物依从性的必要性和血糖控制的重要性，并向患者推荐了定期服用药物打卡软件，患者表示现在明白了药物治疗依从性的重要性，口头表示后面会定期服用药物。",
+  "narrative_en": "A 38-year-old man diagnosed with type 2 diabetes two months earlier was taking metformin 0.5 g three times daily, but follow-up showed poor glycaemic control. He reported needing three doses a day and often missing them because of a busy work schedule. The pharmacist discussed the importance of adherence and of glycaemic control, and recommended a medication-reminder app. The patient said he now understood why adherence mattered and stated verbally that he would take the drug regularly."
  },
  {
   "case_id": 8,
@@ -69,7 +76,8 @@
   "scene": "药学门诊",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 132
+  "narrative_zh": "患者，女士，79岁，因帕金森病而服用左旋多巴/苯塞拉齐(美多巴®62.5)胶囊，药学门诊随访时家属反馈患者逐渐出现吞咽困难，医生开的胶囊药品不能每次都喂进去；药师与医生沟通，建议改成服用美多帕®125分散片，这样患者可以打碎并在水中分散，医生接受建议并执行新医嘱。",
+  "narrative_en": "A 79-year-old woman with Parkinson's disease was taking levodopa/benserazide 62.5 mg capsules. At pharmacy clinic follow-up her family reported progressive difficulty swallowing: the prescribed capsules could not always be given. The pharmacist discussed this with the prescriber and suggested switching to the 125 mg dispersible tablet, which can be crushed and dispersed in water. The prescriber agreed and the new order was executed."
  },
  {
   "case_id": 9,
@@ -78,7 +86,8 @@
   "scene": "审方",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 156
+  "narrative_zh": "患者，男，81岁，临床诊断：脑梗死。开具医嘱：丙氨酰谷氨酰胺注射液 50ml 静脉滴注 qd。丙氨酰谷氨酰胺注射液是一种高浓度溶液，不可直接输注，在输注前必须与可配伍的氨基酸溶液或含有氨基酸的输液相混合，然后与载体溶液一起输注。审方药师拦截并与医生电话沟通，建议更改给药方案，医生接受建议将该药加入三升袋中使用。",
+  "narrative_en": "An 81-year-old man with cerebral infarction was prescribed alanyl-glutamine injection 50 mL by intravenous infusion once daily. This is a high-concentration solution that must not be infused directly: before use it has to be mixed with a compatible amino-acid solution or an amino-acid-containing infusion and given together with the carrier solution. The reviewing pharmacist intercepted the order and telephoned the prescriber, suggesting a change of administration. The prescriber agreed and added the drug to the three-litre total parenteral nutrition bag."
  },
  {
   "case_id": 10,
@@ -87,7 +96,8 @@
   "scene": "临床药师",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 160
+  "narrative_zh": "患者，男，87岁，入院诊断为心力衰竭，泌尿道感染。患者营养状况不佳，予以TPF-D加强营养。临床药师查房时关注到患者无糖尿病，且目前血糖亦正常，不建议使用糖尿病患者专用的肠内营养制剂TPF-D，并且它的价格较能全力TPF高，与医生沟通，从药物选择以及药物经济学角度考虑，建议可调整为能全力TPF。医生接受建议但并未执行。",
+  "narrative_en": "An 87-year-old man admitted with heart failure and urinary tract infection had poor nutritional status and was started on TPF-D. On ward rounds the clinical pharmacist noted that he had no diabetes and that his blood glucose was normal, and advised against a diabetes-specific enteral formula, which also costs more than the standard fibre-containing formula (TPF). The suggestion was made on grounds of both drug selection and pharmacoeconomics. The prescriber accepted it but did not act on it."
  },
  {
   "case_id": 11,
@@ -96,7 +106,8 @@
   "scene": "门诊前置审方",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 121
+  "narrative_zh": "患者，女，65岁，临床诊断：手术后甲状腺功能减退，骨质疏松，糖尿病，高脂血症。开具处方：艾司唑仑片 7片 每次1片 口服 每晚。前置审方系统提示艾司唑仑片缺少适应症，药师与医生沟通，建议增加晚上睡眠障碍相关临床诊断，医生接受建议并执行新医嘱。",
+  "narrative_en": "A 65-year-old woman with post-surgical hypothyroidism, osteoporosis, diabetes and hyperlipidaemia was prescribed estazolam, one tablet by mouth each night. The prospective review system flagged that the indication was missing. The pharmacist discussed this with the prescriber and suggested adding the relevant diagnosis of sleep disturbance at night; the prescriber agreed and the order was updated."
  },
  {
   "case_id": 12,
@@ -105,7 +116,8 @@
   "scene": "药学门诊",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 141
+  "narrative_zh": "患者，女，56岁，两年来一直服用泮托拉唑，每次40毫克，每天两次。药学门诊重整患者用药时，发现她在4个月前已完成了幽门螺杆菌根除治疗。药剂师联系全科医生，建议对她的消化道疾病进行复查，评估是否需要继续使用PPI制剂。全科医生反馈，他说：\"我有建议患者，但患者拒绝并执意要求继续服用。",
+  "narrative_en": "A 56-year-old woman had taken pantoprazole 40 mg twice daily for two years. While reconciling her medication at the pharmacy clinic, the pharmacist found that Helicobacter pylori eradication had been completed four months earlier, and contacted the general practitioner to suggest reassessing her gastrointestinal disease and whether the proton-pump inhibitor was still needed. The general practitioner replied that this had been raised with the patient, who had refused and insisted on continuing the drug."
  },
  {
   "case_id": 13,
@@ -114,7 +126,8 @@
   "scene": "药学门诊",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 136
+  "narrative_zh": "患者，女，84 岁，呼吸联合门诊时主诉口腔鹅口疮。她是一名使用吸入皮质类固醇的慢性哮喘患者。药师检查了她的吸入器使用技巧，发现她根本不能正确吸气，吸气后也不漱口。于是，药师给她提供了一个带有吸入室的吸入器说明书，并告诉她吸入后要用水漱口。一周后，她回来了，鹅口疮也消失了。",
+  "narrative_en": "An 84-year-old woman with chronic asthma who used an inhaled corticosteroid complained of oral thrush at a combined respiratory clinic. The pharmacist checked her inhaler technique and found that she could not inhale correctly and did not rinse her mouth after inhalation. She was given written instructions for an inhaler with a spacer and told to rinse with water after each use. One week later she returned with the thrush resolved."
  },
  {
   "case_id": 14,
@@ -123,7 +136,8 @@
   "scene": "药学门诊",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 201
+  "narrative_zh": "患者，男，60岁，4个月前被诊断为高血压(诊断时血压为180/95)，接受氢氯噻嗪和乙酰胆碱酶抑制剂的治疗。他带着一份日常血压测量表进入药学门诊。药师发现患者最后三次测量的血压是165/95，血压控制不佳。经过询问，你发现他停止服用利尿剂，因为他不想在早上去看孙子的时候(几乎每天)多次上厕所。你告诉他，他必须正确服用药物才能使他的血压回到正常范围。他不愿意这样做，他会去找他的心内科医生讨论这个问题。",
+  "narrative_en": "A 60-year-old man diagnosed with hypertension four months earlier (blood pressure 180/95 mmHg at diagnosis) was treated with hydrochlorothiazide and an acetylcholinesterase inhibitor. He attended the pharmacy clinic with a log of home blood-pressure measurements; the last three readings were 165/95 mmHg, indicating poor control. On questioning he admitted that he had stopped the diuretic because he did not want to need the toilet repeatedly when he went to collect his grandson in the morning, which happened almost daily. He was told that he had to take the medicine properly for his blood pressure to return to the normal range. He was unwilling to do so and said he would discuss the matter with his cardiologist."
  },
  {
   "case_id": 15,
@@ -132,7 +146,8 @@
   "scene": "临床药师",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 194
+  "narrative_zh": "患者，男，27岁，因肺部阴影入住C院，并接受左侧胸腔镜下解剖性肺段切除术。术后医嘱糜蛋白酶（4000U雾化 bid）用于化痰。护士用0.9%氯化钠注射液5mL溶解1支糜蛋白酶，每次氧气雾化10分钟左右。在给予第三次雾化5分钟左右后，患者出现鼻腔出血。药师意识到可能是糜蛋白酶的不良反应，鉴于患者自主排痰情况良好，痰液不多，向医生提出建议停用此药。医生采纳意见，患者随即停止雾化，鼻腔血止。",
+  "narrative_en": "A 27-year-old man admitted to hospital C with a lung shadow underwent left thoracoscopic anatomical segmentectomy, which proceeded uneventfully. Postoperative orders included chymotrypsin 4000 U by nebulisation twice daily as a mucolytic. The nurse dissolved one vial in 5 mL of 0.9% sodium chloride and gave oxygen-driven nebulisation for about 10 minutes on each occasion. About 5 minutes into the third session the patient developed epistaxis. The pharmacist recognised a possible adverse reaction to chymotrypsin and, given that the patient was clearing sputum well with little production, suggested stopping the drug. The prescriber agreed; nebulisation was stopped and the bleeding ceased."
  },
  {
   "case_id": 16,
@@ -141,7 +156,8 @@
   "scene": "临床药师",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 145
+  "narrative_zh": "患者，女，61岁，入院诊断病毒性感染，予阿昔洛韦500mg q8h慢滴，药师查房过程中发现患者肌酐进行性升高至301μmol/L，存在急性肾损伤、肾小管重吸收功能受损、肾前性合并肾性可能，药师提醒医师应根据肾功能调整阿昔洛韦用药剂量为300mg qd慢滴。医生接受建议并更改医嘱，患者好转。",
+  "narrative_en": "A 61-year-old woman admitted with viral infection was started on aciclovir 500 mg every 8 hours by slow infusion. During ward rounds the pharmacist observed a progressive rise in serum creatinine to 301 µmol/L, with acute kidney injury, impaired tubular reabsorption and possible pre-renal as well as renal components. The pharmacist advised the prescriber to adjust the aciclovir dose to 300 mg once daily by slow infusion according to renal function. The prescriber agreed and changed the order; the patient improved."
  },
  {
   "case_id": 17,
@@ -150,7 +166,8 @@
   "scene": "临床药师",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 117
+  "narrative_zh": "患者，女，80岁，诊断急性下壁心肌梗死，急诊行PCI术，术顺，第二天患者从重症监护室转入普通病房，常规PCI术后需进行抗栓干预，但药师审核医嘱时发现普通病房医生未给术后转科患者开具抗血小板药物，告知医生后，医生表示漏开医嘱并及时补开。",
+  "narrative_en": "An 80-year-old woman with acute inferior myocardial infarction underwent emergency percutaneous coronary intervention, which was uneventful. The next day she was transferred from intensive care to a general ward. Antithrombotic therapy is routine after PCI, but when reviewing the orders the pharmacist found that the ward physician had not prescribed an antiplatelet drug for the transferred patient. The physician acknowledged the omission and prescribed it promptly."
  },
  {
   "case_id": 18,
@@ -159,7 +176,8 @@
   "scene": "审方",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 187
+  "narrative_zh": "患者，男，75岁，因诊断急性冠脉综合征入院，入院后化验检查患者肝酶升高，医生临时医嘱：多烯磷脂酰胆碱注射液5ml + 0.9%氯化钠针100ml  静脉滴注药师审方时拦截，告知医生多烯磷脂酰胆碱与电解质溶液合用会产生沉淀，故说明书提示严禁使用电解质注射液稀释，应该使用不含电解质的葡萄糖溶液稀释(如5%葡萄糖溶液、10%葡萄糖溶液、5%木糖醇溶液)，医生接受建议，更改医嘱。",
+  "narrative_en": "A 75-year-old man admitted with acute coronary syndrome was found to have raised liver enzymes. A temporary order was written for polyene phosphatidylcholine injection 5 mL with 0.9% sodium chloride 100 mL by intravenous infusion. The pharmacist blocked the order at review and explained that polyene phosphatidylcholine precipitates with electrolyte solutions: the label prohibits dilution in electrolyte-containing fluids and requires a glucose solution without electrolytes (5% or 10% glucose, or 5% xylitol). The prescriber accepted the advice and changed the order."
  },
  {
   "case_id": 19,
@@ -168,7 +186,8 @@
   "scene": "续方门诊",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 108
+  "narrative_zh": "患者，男，69岁，在互联网医院上进行高血压药物续方。药师进行线上审核时发现，患者续方药物已超过3个月累积量，但系统未对其进行提醒和拦截，药师将该问题上报于信息工程师，工程师表示立刻更新升级系统，后期该问题得到了解决。",
+  "narrative_en": "A 69-year-old man requested a repeat prescription for antihypertensive medication through an internet hospital. Reviewing the request online, the pharmacist found that the cumulative quantity supplied already exceeded three months, yet the system neither warned nor blocked the request. The pharmacist reported the problem to the information engineer, who updated and upgraded the system; the issue was subsequently resolved."
  },
  {
   "case_id": 20,
@@ -177,7 +196,8 @@
   "scene": "续方门诊",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 122
+  "narrative_zh": "患者A长期服用拜新同（硝苯地平控释片）治疗高血压，在进行互联网医院续方配药时提示药物不可选，于是线上咨询反馈该问题，药师进行线上回复：我院没有拜新同，但是有相同有效成分及剂型的药物。患者回复明白了，但仍希望服用拜新同，后续去其他医院看看有没有。",
+  "narrative_en": "A patient taking Adalat (nifedipine extended-release tablets) long term for hypertension found the drug unavailable when reordering through the internet hospital and raised the problem in an online consultation. The pharmacist replied online that the hospital did not stock Adalat but did stock a product with the same active ingredient and formulation. The patient said he understood but still preferred Adalat and would look for it at another hospital."
  },
  {
   "case_id": 1,
@@ -186,7 +206,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 130
+  "narrative_zh": "1. 患者，男，75 岁，入院时诊断冠心病、肝功能不全、肾性贫血、2 型糖尿病周围神经病等。医生给与开具瑞舒伐他汀一级预防治疗。临床药师查房时发现患者存在中度肝功能不全和严重肾功能不全，建议医生将瑞舒伐他汀调整为经肝肾双通道代谢的普伐他汀。医生接受建议并执行。",
+  "narrative_en": "A 75-year-old man admitted with coronary heart disease, hepatic impairment, renal anaemia and type 2 diabetic peripheral neuropathy was prescribed rosuvastatin for primary prevention. On ward rounds the clinical pharmacist noted moderate hepatic impairment and severe renal impairment, and suggested switching rosuvastatin to pravastatin, which is eliminated through both hepatic and renal routes. The prescriber accepted the advice and the change was made."
  },
  {
   "case_id": 2,
@@ -195,7 +216,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 192
+  "narrative_zh": "2. 患者，女，82 岁，胆囊结石伴急性胆囊炎，胆囊造口术后伴感染，引流液细菌培养结果提示患者感染 MRSA，医生为其开具了万古霉素 1g+0.9NS 100ml，q12h，静滴，由于万古霉素 0.5g 应至少使用 100ml 溶媒稀释，以保证滴注时间在 60min 以上，以防发生红人综合征等不良反应，药师建议将万古霉素的溶媒体积调整为 250ml，医生接受了建议，重新开具了医嘱。",
+  "narrative_en": "An 82-year-old woman with gallstones and acute cholecystitis, complicated by infection after cholecystostomy, had a drain culture growing MRSA. She was prescribed vancomycin 1 g in 0.9% sodium chloride 100 mL every 12 hours by intravenous infusion. Because each 0.5 g of vancomycin requires at least 100 mL of diluent so that the infusion lasts at least 60 minutes, reducing the risk of reactions such as red man syndrome, the pharmacist advised increasing the diluent volume to 250 mL. The prescriber accepted and reissued the order."
  },
  {
   "case_id": 3,
@@ -204,7 +226,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 119
+  "narrative_zh": "3. 患者，男，55 岁，慢性肾功能不全，eGFR 18ml/min/1.73 ㎡,因感染使用“哌拉西林钠他唑巴坦 4.5g, q8h”，药师建议医生，需根据患者肌酐清除率调整抗菌药物剂量 4.5g,q12h，医生接受药师建议并调整剂量。",
+  "narrative_en": "A 55-year-old man with chronic renal impairment and an eGFR of 18 mL/min/1.73 m² was treated for infection with piperacillin/tazobactam 4.5 g every 8 hours. The pharmacist advised the prescriber to adjust the dose for his creatinine clearance to 4.5 g every 12 hours. The prescriber accepted and the dose was adjusted."
  },
  {
   "case_id": 4,
@@ -213,7 +236,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 115
+  "narrative_zh": "4. 患者，女，68 岁，因摔伤致意识不清在 D 医院住院治疗。住院期间因肝功能不全医生给与舒肝宁保肝护肝治疗。次日早上查房，C 女士主诉身上多处出现红疹。药师意识到可能是舒肝宁的不良反应，向医生提出建议停用舒肝宁。医生同意停用。",
+  "narrative_en": "A 68-year-old woman was admitted to hospital D with impaired consciousness after a fall. Because of hepatic impairment the prescriber gave Shuganning injection for liver protection. At the next morning's ward round she reported red rashes on several parts of her body. The pharmacist recognised a possible adverse reaction to Shuganning and suggested stopping it. The prescriber agreed and the drug was stopped."
  },
  {
   "case_id": 5,
@@ -222,7 +246,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 142
+  "narrative_zh": "5. 患者，女，45 岁，半年前确诊“哮喘”，目前使用沙美特罗替卡松粉吸入剂(50μg/250μg)早晚各 1 吸，最近患者抱怨药师抱怨自己得了口疮。药师检查她的吸气技巧，注意到吸入药物后没有漱口。对患者进行用药指导，告知该吸入剂含有激素，吸入后需漱口。一周后随访患者，患者口疮消失。",
+  "narrative_en": "A 45-year-old woman diagnosed with asthma six months earlier was using salmeterol/fluticasone 50/250 µg one inhalation morning and evening. She recently complained to the pharmacist of mouth ulcers. The pharmacist checked her inhalation technique and noted that she did not rinse her mouth after inhaling. She was given medication counselling explaining that the inhaler contains a corticosteroid and that the mouth must be rinsed after use. At follow-up one week later the ulcers had resolved."
  },
  {
   "case_id": 6,
@@ -231,7 +256,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 147
+  "narrative_zh": "6. 患者，女，60 岁，诊断为高胆固醇血症，医生为其开具了瑞舒伐他汀，每次 20mg，每天一次，由于患者文化水平较低，以为 20mg 就是 20 片，因此去咨询药师，药师为其讲解瑞舒伐他汀 20mg 为 1 片，瑞舒伐他汀应每天 1 次，每次 1 片使用，患者表示知晓了瑞舒伐他汀的用法用量。",
+  "narrative_en": "A 60-year-old woman with hypercholesterolaemia was prescribed rosuvastatin 20 mg once daily. Because of limited literacy she thought 20 mg meant 20 tablets and consulted the pharmacist. The pharmacist explained that rosuvastatin 20 mg is one tablet, taken once daily, one tablet each time. The patient said she now understood the dose and administration of rosuvastatin."
  },
  {
   "case_id": 7,
@@ -240,7 +266,8 @@
   "scene": "",
   "n_drp": 2,
   "is_double_drp": true,
-  "narrative_len": 98
+  "narrative_zh": "7. 药师在查病区备用药时发现，病区抢救车中的尼可刹米即将过期，告知护士及时更换新有效期的药品，护士同意更换，但在接下来一次备用药检查时仍未更换，护士长表示由于管理疏忽，未及时更换即将到期的药品。",
+  "narrative_en": "While checking the ward's reserve stock, the pharmacist found that the nikethamide in the resuscitation trolley was about to expire and asked the nurse to replace it with stock bearing a later expiry date. The nurse agreed, but at the next stock check the drug had still not been replaced. The head nurse explained that the replacement had been missed through a lapse in stock management."
  },
  {
   "case_id": 8,
@@ -249,7 +276,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 102
+  "narrative_zh": "8. 患者，男，79 岁，前列腺增生 3 年，医生为其开具甲磺酸多沙唑嗪缓释片（可多华）4mg,qd，调剂药师将药品调配成包装相似的阿托伐他汀（立普妥），发药药师发现后，及时拦截，并告知调剂药师更换药品。",
+  "narrative_en": "A 79-year-old man with a three-year history of benign prostatic hyperplasia was prescribed doxazosin mesylate extended-release tablets 4 mg once daily. The dispensing pharmacist prepared atorvastatin instead, as the packaging is similar. The checking pharmacist detected the error, intercepted it before the medicine was issued, and asked the dispensing pharmacist to exchange the product."
  },
  {
   "case_id": 9,
@@ -258,7 +286,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 225
+  "narrative_zh": "9. 患者，女，75 岁，向医生主诉阵发性呕吐 1 月伴明显消瘦，入院后进行了腹腔镜检查横结肠癌根治术中转结肠造瘘术+胆囊切除术，术后使用头孢他啶 7 天进行抗感染治疗，但效果不佳，医师向药师咨询抗生素调整，药师建议停头孢他啶，改为哌拉西林他唑巴坦进行抗感染治疗，后续血象指标有所好转，但体温控制不佳，医生加用了万古霉素，0.25g,q12h，药师认为患者肾功能正常，万古霉素剂量可用至 0.5g,q12h。医生接受了药师的建议，患者最后恢复并出院。",
+  "narrative_en": "A 75-year-old woman reported one month of intermittent vomiting with marked weight loss. After admission she underwent laparoscopic exploration with radical resection of transverse colon cancer converted to colostomy, together with cholecystectomy. Postoperatively she received ceftazidime for seven days for infection control without good effect. The physician consulted the pharmacist about changing antibiotics; the pharmacist advised stopping ceftazidime and starting piperacillin/tazobactam. Blood indices subsequently improved but temperature control remained poor, so the physician added vancomycin 0.25 g every 12 hours. The pharmacist considered that, with normal renal function, vancomycin could be given at 0.5 g every 12 hours. The physician accepted this advice and the patient eventually recovered and was discharged."
  },
  {
   "case_id": 10,
@@ -267,7 +296,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 100
+  "narrative_zh": "10. 患者，女，诊断为急性肾盂肾炎，M 医生开了注射用左氧氟沙星 500mg,qd，持续三天后停药了。临床药师在查房时发现疗程太短了，打电话给医生，他说那只是笔误。应该是 14 天。医生更改了医嘱。",
+  "narrative_en": "A woman with acute pyelonephritis was prescribed intravenous levofloxacin 500 mg once daily by doctor M, and the drug was stopped after three days. On ward rounds the clinical pharmacist considered the course too short and telephoned the prescriber, who said this had been a clerical error and that the course should have been 14 days. The doctor changed the order."
  },
  {
   "case_id": 11,
@@ -276,7 +306,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 163
+  "narrative_zh": "11. 患者，男，58 岁，2 月前确诊“慢性阻塞性肺病”，使用噻托溴铵粉 (18μg)每晚 1 吸吸入治疗，药师对患者进行随访发现患者经常忘记吸入。药师和患者讨论药物依从性的必要性和控制症状的重要性，并向患者推荐了定期服用药物打卡软件，患者表示现在明白了药物治疗依从性的重要性，表示后面会按照要求规律使用吸入药物并定期随访。",
+  "narrative_en": "A 58-year-old man diagnosed with chronic obstructive pulmonary disease two months earlier was using tiotropium powder 18 µg, one inhalation each evening. Follow-up by the pharmacist showed that he frequently forgot to inhale. The pharmacist discussed the importance of adherence and of symptom control, and recommended a medication-reminder app. The patient said he now understood why adherence mattered and stated that he would use the inhaled drug regularly as instructed and attend follow-up."
  },
  {
   "case_id": 12,
@@ -285,7 +316,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 193
+  "narrative_zh": "12. 患者，女，25 岁，半年前确诊“哮喘”，目前使用沙美特罗替卡松粉吸入剂(50μg/250μg)早晚各 1 吸，但哮喘控制较差。她告知医生，因为替卡松为激素类药物，她担心使用吸入制剂后会让自己发胖，所以有症状时会用药，症状好转就停药。药师向其解释，激素类吸入制剂是哮喘患者治疗的首选药物，且雾化吸入使用激素进入体内的剂量较低，患者表示明白治疗的重要性并表示后续会规律使用吸入药物。",
+  "narrative_en": "A 25-year-old woman diagnosed with asthma six months earlier was using salmeterol/fluticasone 50/250 µg one inhalation morning and evening, but her asthma was poorly controlled. She told the doctor that, because fluticasone is a corticosteroid, she was worried that the inhaled product would make her gain weight, so she used it only when symptomatic and stopped once symptoms improved. The pharmacist explained that inhaled corticosteroids are first-line therapy in asthma and that the systemic dose delivered by inhalation is low. The patient said she understood the importance of treatment and would use the inhaled drug regularly."
  },
  {
   "case_id": 13,
@@ -294,7 +326,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 159
+  "narrative_zh": "13. 患者，男，95 岁，因胸闷气促伴意识不清突发不进食入院治疗，入院后给与奥美拉唑40mg qd 护胃预防应激性溃疡。入院后由于肌钙蛋白明显增高，心肌梗死可能，给与加用氯吡格雷和阿司匹林联合抗血小板聚集治疗。药师联系了医生，奥美拉唑会使氯吡格雷血药浓度下降，建议将奥美拉唑调整为泮托拉唑或雷贝拉唑。这个建议被采纳。",
+  "narrative_en": "A 95-year-old man was admitted with chest tightness and breathlessness, impaired consciousness and a sudden inability to eat. Omeprazole 40 mg once daily was started to protect the gastric mucosa and prevent stress ulceration. Because troponin was markedly raised, suggesting myocardial infarction, clopidogrel was added to aspirin for dual antiplatelet therapy. The pharmacist contacted the physician: omeprazole lowers the plasma concentration of clopidogrel, and pantoprazole or rabeprazole would be preferable. The suggestion was accepted."
  },
  {
   "case_id": 14,
@@ -303,7 +336,8 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 130
+  "narrative_zh": "14. 患者，男，67 岁，因腹泻入院，入院后粪便培养检出难辨梭状芽孢杆菌，肾功能正常，医生在开具医嘱前咨询临床药师注射用万古霉素 125mg,q6h，静滴是否合理，药师告知医生，针对此适应症，万古霉素应选择口服给药途径。医生表示已知晓，并将给药途径改为口服。",
+  "narrative_en": "A 67-year-old man admitted with diarrhoea had Clostridioides difficile detected on stool culture and normal renal function. Before writing the order, the physician asked the clinical pharmacist whether intravenous vancomycin 125 mg every 6 hours by infusion was appropriate. The pharmacist advised that, for this indication, vancomycin should be given by the oral route. The physician acknowledged this and changed the route to oral administration."
  },
  {
   "case_id": 15,
@@ -312,6 +346,7 @@
   "scene": "",
   "n_drp": 1,
   "is_double_drp": false,
-  "narrative_len": 107
+  "narrative_zh": "15. 审方药师接到临床反馈，需要使用注射用硫酸多粘菌素 B 进行鞘内注射，但医嘱下发时审方系统提示：给药途径不适宜。医嘱无法下发。审方药师与系统工程师沟通，增加该药物给药途径：鞘内注射。临床反馈医嘱能正常下发了。",
+  "narrative_en": "A reviewing pharmacist received a clinical request to administer polymyxin B sulfate by intrathecal injection, but when the order was issued the review system flagged that the route of administration was inappropriate, so the order could not be released. The reviewing pharmacist worked with the system engineer to add intrathecal injection as an accepted route for this drug. The clinical team then reported that the order could be issued normally."
  }
 ]
