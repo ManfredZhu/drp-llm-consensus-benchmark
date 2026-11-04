@@ -1,7 +1,7 @@
 # Data and code for: Benchmarking nine large language models against
 # human consensus for drug-related problem coding
 
-Version 1.1.0 · released 2026-11-03
+Version 1.1.1 · released 2026-11-04
 
 This deposit contains the model outputs, the human rating tallies and the
 analysis code behind every number reported in the manuscript. All reported

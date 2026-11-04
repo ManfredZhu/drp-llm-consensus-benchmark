@@ -1,5 +1,5 @@
 {
- "codebook_n_codes": 53,
+ "codebook_n_codes": 50,
  "models": [
   "kimi-k2.8-preview",
   "glm-5.3-flash",

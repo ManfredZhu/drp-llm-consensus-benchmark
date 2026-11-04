@@ -450,7 +450,7 @@ def fig8(P, M, save_pub, panel_label, clean_axes, chan_color, short):
     cols = [
         ("format\ncompliance", lambda v: v["format_ok"]),
         ("flow\ncompleted", lambda v: v["flow_ok"]),
-        ("ecosystem\nagreement", lambda v: round(v["eco_rate"] / 10)),
+        ("cross-model\nagreement", lambda v: round(v["eco_rate"] / 10)),
         ("P-segment\nstability", lambda v: round(v["p_main_match"] / 10)),
     ]
     Z = np.zeros((len(keys), len(cols)))
@@ -691,11 +691,11 @@ def fig1(M, D, P, save_pub, panel_label, clean_axes, chan_color, short, tiny_):
     #   现改为：框内**一行标题**，副标题一律移到框**下方**成图注，
     #   框宽收到 17–19 单位，五框横排/错落都不挤。
     steps = [
-        ("139 pharmacists", "back-to-back, blind", BLUE),
-        ("per-cell voting", "majority = reference", BLUE),
+        ("two rating rounds", "139 & 46 raters, blind", BLUE),
+        ("per-cell voting", "votes vs designated answers", BLUE),
         ("98 / 7 split", "consensus / disputed", BLUE),
         ("9 models × 5 repeats", "15 cases × 2 arms", TEAL),
-        ("two rulers", "98 + 7 cells scored", NEU_D),
+        ("two criteria", "98 + 7 cells scored", NEU_D),
     ]
     rows_y = [(72.0, 26.0), (32.0, 26.0)]
     xs_plan = [[1.0, 21.5, 42.0], [8.0, 34.0]]
@@ -736,10 +736,11 @@ def fig1(M, D, P, save_pub, panel_label, clean_axes, chan_color, short, tiny_):
     #   替代表达：流程顺序由**框的左右位置**交代（上排 1→2→3，折回下排 4→5），
     #   图注再补一句顺序说明；无 stroked path → 从根上断掉这条碰撞路径。
     ax.text(50, 99, "Study design (steps 1-3 top row, 4-5 bottom row): "
-                    "from divergent human raters to a two-ruler benchmark",
+                    "from divergent human raters to a two-criterion benchmark",
             ha="center", va="center", fontsize=5.2, color=INK, fontweight="bold")
-    ax.text(50, 20, "Raters never saw each other's answers; the majority product became "
-                    "the reference — its disagreements are what the 98/7 split exposes",
+    ax.text(50, 20, "Raters never saw each other's answers or the reference; cells "
+                    "whose votes did not support the designated answers form the "
+                    "contested set",
             ha="center", va="center", fontsize=4.4, color=NEU_D, style="italic")
     panel_label(ax, "a", dx=-0.03, dy=1.02)
 
@@ -783,7 +784,7 @@ def fig1(M, D, P, save_pub, panel_label, clean_axes, chan_color, short, tiny_):
          "69–89% on the 98 consensus cells;\n8 of 9 models inside an 8 pp band", BLUE),
         ("2", "Difficulty is stratified, not random",
          "A / O easy (89–100%), C and I hardest\n(41–64% / 51–83%)", NEU_D),
-        ("3", "Structured output is the load-bearing wall",
+        ("3", "Structured output is the decisive constraint",
          "remove it and 9/9 models × 15 runs = 0/135\nproduced no parseable answer", RED),
     ]
     y = 92
@@ -807,7 +808,7 @@ def fig1(M, D, P, save_pub, panel_label, clean_axes, chan_color, short, tiny_):
     figs = [
         ("Fig.2", "the reference is itself contested"),
         ("Fig.3", "nine models, 69–89%"),
-        ("Fig.4", "output format is the load-bearing wall"),
+        ("Fig.4", "output format is the decisive constraint"),
         ("Fig.5", "handouts also raise model agreement"),
         ("Fig.6", "where the wrong answers come from"),
         ("Fig.7", "errors are shared, not random"),
@@ -842,10 +843,11 @@ def Blues_cmap():
     # 流程顺序改由**框本身的左右位置**交代（上排 1→2→3，折回下排 4→5），
     # 不再叠加编号数字——白字序号同样会与框内标题争夺那 2pt 的垂直余量。
     ax.text(50, 99, "Study design (steps 1-3 top row, 4-5 bottom row): "
-                    "from divergent human raters to a two-ruler benchmark",
+                    "from divergent human raters to a two-criterion benchmark",
             ha="center", va="center", fontsize=5.2, color=INK, fontweight="bold")
-    ax.text(50, 20, "Raters never saw each other's answers; the majority product became "
-                    "the reference — its disagreements are what the 98/7 split exposes",
+    ax.text(50, 20, "Raters never saw each other's answers or the reference; cells "
+                    "whose votes did not support the designated answers form the "
+                    "contested set",
             ha="center", va="center", fontsize=4.4, color=NEU_D, style="italic")
     panel_label(ax, "a", dx=-0.03, dy=1.02)
 
@@ -889,7 +891,7 @@ def Blues_cmap():
          "69–89% on the 98 consensus cells;\n8 of 9 models inside an 8 pp band", BLUE),
         ("2", "Difficulty is stratified, not random",
          "A / O easy (89–100%), C and I hardest\n(41–64% / 51–83%)", NEU_D),
-        ("3", "Structured output is the load-bearing wall",
+        ("3", "Structured output is the decisive constraint",
          "remove it and 9/9 models × 15 runs = 0/135\nproduced no parseable answer", RED),
     ]
     y = 92
@@ -913,7 +915,7 @@ def Blues_cmap():
     figs = [
         ("Fig.2", "the reference is itself contested"),
         ("Fig.3", "nine models, 69–89%"),
-        ("Fig.4", "output format is the load-bearing wall"),
+        ("Fig.4", "output format is the decisive constraint"),
         ("Fig.5", "handouts also raise model agreement"),
         ("Fig.6", "where the wrong answers come from"),
         ("Fig.7", "errors are shared, not random"),
@@ -952,10 +954,11 @@ def Blues_cmap():
         ax.text(xi + 2.0, y0 + hh - 2.2, str(i2 + 1), ha="left", va="top",
                 fontsize=4.4, color="white", fontweight="bold", zorder=4)
     ax.text(50, 99, "Study design (steps 1-3 top row, 4-5 bottom row): "
-                    "from divergent human raters to a two-ruler benchmark",
+                    "from divergent human raters to a two-criterion benchmark",
             ha="center", va="center", fontsize=5.2, color=INK, fontweight="bold")
-    ax.text(50, 20, "Raters never saw each other's answers; the majority product became "
-                    "the reference — its disagreements are what the 98/7 split exposes",
+    ax.text(50, 20, "Raters never saw each other's answers or the reference; cells "
+                    "whose votes did not support the designated answers form the "
+                    "contested set",
             ha="center", va="center", fontsize=4.4, color=NEU_D, style="italic")
     panel_label(ax, "a", dx=-0.03, dy=1.02)
 
@@ -999,7 +1002,7 @@ def Blues_cmap():
          "69–89% on the 98 consensus cells;\n8 of 9 models inside an 8 pp band", BLUE),
         ("2", "Difficulty is stratified, not random",
          "A / O easy (89–100%), C and I hardest\n(41–64% / 51–83%)", NEU_D),
-        ("3", "Structured output is the load-bearing wall",
+        ("3", "Structured output is the decisive constraint",
          "remove it and 9/9 models × 15 runs = 0/135\nproduced no parseable answer", RED),
     ]
     y = 92
@@ -1023,7 +1026,7 @@ def Blues_cmap():
     figs = [
         ("Fig.2", "the reference is itself contested"),
         ("Fig.3", "nine models, 69–89%"),
-        ("Fig.4", "output format is the load-bearing wall"),
+        ("Fig.4", "output format is the decisive constraint"),
         ("Fig.5", "handouts also raise model agreement"),
         ("Fig.6", "where the wrong answers come from"),
         ("Fig.7", "errors are shared, not random"),

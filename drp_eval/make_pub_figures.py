@@ -1432,7 +1432,7 @@ def fig2():
          # 🔴 2026-10-20 用户裁定：此行拆成两行，把文字整体留在左半边、
          #   右半边让给微图（左文右图）；等号**不跟在行尾**，而是旋转 90°
          #   单独钉在第二、三行之间的左侧（见下方 i == 3 分支）。
-         "Cell-wise tally\nGold standard\nmodal codes", BLUE),
+         "Cell-wise tally\nVotes vs designated\ngold answers", BLUE),
         (0.515, 0.380, 0.485, 0.26,
          "Split by vote distribution\nConsensus 98 · contested 7", TEAL),
         (0.000, 0.040, 1.000, 0.25,
@@ -1686,7 +1686,7 @@ def fig2():
     # 🔴 「two rulers」标注改放在**红框上方空隙**（原 0.615, 0.505 被上方
     #   两条弧形箭头的曲线穿过—— 审计报 text-stroke）。
     #   现在流程箭头已取消，0.615, 0.33 一带完全空白。
-    ax.text(0.5, 0.325, "scored on two rulers", ha="center", fontsize=5,
+    ax.text(0.5, 0.325, "scored on two criteria", ha="center", fontsize=5,
             color=TEAL, style="italic", transform=ax.transAxes)
     panel_label(ax, "a", dx_pt=_DX_AC)
 

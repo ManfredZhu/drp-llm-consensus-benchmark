@@ -50,9 +50,13 @@ DIMS_REQUIRED = ["P", "C"]          # 本臂题面只要求这两维（PCNE 为�
 
 
 def load_codebook():
-    """从冻结码表文件现读全部合法码（不硬编码，避免码表更新后失效）。"""
+    """从冻结码表文件现读全部合法码（不硬编码，避免码表更新后失效）。
+
+    只认 P 与 C 两域：本臂的题面只要求这两个维度，而冻结文件里还含有
+    V1.0 对照表带出的 E 段码，若一并纳入会把码表规模算大（曾误得 53，实为 50）。
+    """
     txt = CODEBOOK.read_text(encoding="utf-8")
-    return set(re.findall(r"\b[PICAEO]\d+\.\d+\b", txt))
+    return set(re.findall(r"\b[PC]\d+\.\d+\b", txt))
 
 
 def load(model):
